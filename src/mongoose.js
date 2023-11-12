@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb+srv://Dulon:dulon123@cluster0.taxqwuy.mongodb.net/LoginRegister")
+mongoose.connect("mongodbconnection/LoginRegister") //connect your own connection of mongoDb & Database name
      .then(() => {
      console.log('mongoose connected')
      }).catch(() => {
