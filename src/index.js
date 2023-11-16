@@ -34,10 +34,10 @@ try {
           res.render("home");
      }
      else {
-          res.send("Credential Wrong")
+          res.render("failCredential")
      }
 } catch{
- res.send("Credential Wrong")
+ res.render("failCredential")
 }
 })
 
